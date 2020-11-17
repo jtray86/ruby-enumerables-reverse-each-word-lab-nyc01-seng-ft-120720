@@ -2,7 +2,9 @@ def reverse_each_word(string)
   
   sentence_array = string.split
   
-  sentence_array.each { |reverse_word| reverse_word.
+  sentence_array.each { |reverse_word| reverse_word.reverse!}
+end
+reverse_word.join("")
   
 end
   
